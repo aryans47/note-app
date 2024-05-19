@@ -1,40 +1,24 @@
-<div align="center">
-<img width="50%" src="http://i3.ytimg.com/vi/tYKRAXIio28/maxresdefault.jpg"/>
+![frontend](https://github.com/aryans47/note-app/assets/151876078/3512b10f-db33-4996-a946-9d97a8e34247)
+
 
 # Django & React Notes App
 </div>
 
-### Cloning the repository
-
---> Clone the repository using the command below :
-```bash
-git clone https://github.com/divanov11/Django-React-NotesApp.git
-
-```
+### Installation
 
 --> Move into the directory where we have the project files : 
 ```bash
-cd Django-React-NotesApp
+cd note-app
 
 ```
 
 --> Create a virtual environment :
 ```bash
-# If you are on Windows
 virtualenv env
-# If you are on Linux or Mac
-python -m venv env
-```
 
 --> Activate the virtual environment :
 ```bash
-# If you are on Windows
 .\env\Scripts\activate
-# If you are on Linux or Mac
-source env/bin/activate
-```
-
-#
 
 ### Running the App
 
@@ -47,10 +31,29 @@ python manage.py runserver
 
 #
 
+### Frontend Setup
+
+--> Navigate to frontend directory : 
+```bash
+cd frontend
+
+--> install depedencies : 
+```bash
+npm install
+
+--> Start the development server : 
+```bash
+npm start
+
+> ⚠ Then, The React app should be running at http://localhost:3000.
+
 ### App Preview :
+### The Django API should running at http://localhost:8000.
 
-<div align="center">
-<img width="50%" src="https://www.linkpicture.com/q/Notes.png"/>
-</div>
+![backend-terminal](https://github.com/aryans47/note-app/assets/151876078/0a5997b6-123c-4376-bbda-f15bc96e0bdb)
 
-#
+### Accessing the Application
+
+![backendapi](https://github.com/aryans47/note-app/assets/151876078/a45870b2-0717-4f11-ac2e-65c200ec5c9b)
+
+
